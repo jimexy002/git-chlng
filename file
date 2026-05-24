@@ -1,0 +1,8 @@
+import random
+
+male_name = input("Enter male name: ")
+female_name = input("Enter female name: ")
+
+love_percent = random.randint(1, 100)
+
+print(male_name, "and", female_name, "love each other", love_percent, "%")
